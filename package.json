@@ -1,0 +1,56 @@
+{
+  "name": "chayakkada-near-me",
+  "version": "1.0.0",
+  "description": "Find chayakkadas (Kerala tea shops) in your walkable radius - A community-driven webapp to discover and contribute information about local tea shops",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node seed.js"
+  },
+  "keywords": [
+    "chayakkada",
+    "tea-shop",
+    "kerala",
+    "google-maps",
+    "geospatial",
+    "postgis",
+    "location-based",
+    "community",
+    "chai",
+    "tea"
+  ],
+  "author": "Chayakkada Near Me Contributors",
+  "license": "MIT",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/chayakkada-near-me.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/chayakkada-near-me/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/chayakkada-near-me#readme",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^2.2.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^8.1.0",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.1.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.16.3",
+    "sqlite3": "^5.1.7",
+    "winston": "^3.18.3"
+  }
+}
